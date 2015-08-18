@@ -9,5 +9,7 @@ pedidos = [
     }
 ]
 
+s = 'Nome:{0} \nSabor:{1}'
+
 for dic in pedidos:
-    print('Nome:{0} Sabor:{1}'.format(dic['nome'],dic['sabor']))
+    print(s.format(dic['nome'],dic['sabor']))
