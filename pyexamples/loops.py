@@ -10,4 +10,4 @@ pedidos = [
 ]
 
 for dic in pedidos:
-    print(dic)
+    print('Nome:{0} Sabor:{1}'.format(dic['nome'],dic['sabor']))
