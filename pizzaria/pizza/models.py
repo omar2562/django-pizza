@@ -6,7 +6,7 @@ class Pizza(models.Model):
     ingredients = models.TextField()
 
     def __unicode__(self):
-        return self.name
+        return u'Pizza de {}'.format(self.name)
 
     def __repr__(self):
         return unicode(self)
